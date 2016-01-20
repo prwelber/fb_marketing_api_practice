@@ -12,7 +12,6 @@ def say_hi(name):
     return print('hello %s' % name)
 
 
-def double_multiply(x,y):
+def double_multiply(x, y):
     print(add_one(x))
-    return multiply(x,y) * 2
-
+    return multiply(x, y) * 2

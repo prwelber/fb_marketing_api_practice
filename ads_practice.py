@@ -6,7 +6,7 @@ import os
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAIeTGIB4ZCS61BoTFz0UXEDBivceAk686epdYJ5KKJvZAp4QqXVIwoM1ECOhgMDh5xHicblud2mHEsZAfhz0nWfDOjnZBwPGvcaaEZCytahrgomIEXQ3G5SuKqRPriiq6S8ZAkAqEOSxiZC3JbBZBqZCtbeXQu4UJFxMKCIEMtSo9gdP1DR5mp2ktZAVZANRpEoyCwN8GPyVW0G' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAO1GMrTP4dU0r57IZAZBsm2bEbyNHOZArQAqnKVMclEjIaKmjVBsZAMKGrzIZAXbscAe6vthkeLymFG2FCDlONI7KcQuLAjCRnI3HVwQejY7zr5dIZAmMYmiVa8AYZA65Cb0RkfJieOVbrzZC6wCiIoXZBunYjcZBHBB8gTtTkibJ27F3QmoUsXteK9ZClZBuoLQnIWjy0oiZA9Vu' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 

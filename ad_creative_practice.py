@@ -20,29 +20,29 @@ Using this Ad for the practice
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAIeTGIB4ZCS61BoTFz0UXEDBivceAk686epdYJ5KKJvZAp4QqXVIwoM1ECOhgMDh5xHicblud2mHEsZAfhz0nWfDOjnZBwPGvcaaEZCytahrgomIEXQ3G5SuKqRPriiq6S8ZAkAqEOSxiZC3JbBZBqZCtbeXQu4UJFxMKCIEMtSo9gdP1DR5mp2ktZAVZANRpEoyCwN8GPyVW0G' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAO1GMrTP4dU0r57IZAZBsm2bEbyNHOZArQAqnKVMclEjIaKmjVBsZAMKGrzIZAXbscAe6vthkeLymFG2FCDlONI7KcQuLAjCRnI3HVwQejY7zr5dIZAmMYmiVa8AYZA65Cb0RkfJieOVbrzZC6wCiIoXZBunYjcZBHBB8gTtTkibJ27F3QmoUsXteK9ZClZBuoLQnIWjy0oiZA9Vu' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 
 def get_ad_creative_data(adcreative):
     creative = AdCreative(adcreative)
-    fields = [AdCreative.Field.name, 
-              AdCreative.Field.body, 
-              AdCreative.Field.image_url, 
-              AdCreative.Field.object_url, 
-              AdCreative.Field.adlabels, 
-              AdCreative.Field.call_to_action_type, 
-              AdCreative.Field.image_hash, 
-              AdCreative.Field.link_url, 
-              AdCreative.Field.title, 
-              AdCreative.Field.template_url, 
+    fields = [AdCreative.Field.name,
+              AdCreative.Field.body,
+              AdCreative.Field.image_url,
+              AdCreative.Field.object_url,
+              AdCreative.Field.adlabels,
+              AdCreative.Field.call_to_action_type,
+              AdCreative.Field.image_hash,
+              AdCreative.Field.link_url,
+              AdCreative.Field.title,
+              AdCreative.Field.template_url,
     ]
     creative.remote_read(fields=fields)
     return creative
 
 varidesk_creative_id = 6032775709806
 popcrush_creative_id = 6025991716655
-creative_data = get_ad_creative_data(popcrush_creative_id)
+creative_data = get_ad_creative_data(varidesk_creative_id)
 print(creative_data)
 
 
@@ -50,10 +50,12 @@ print(creative_data)
 """
 This returns:
 <AdCreative> {
-    "body": "Win a vacation to Palm Springs, San Diego, or Lake Tahoe from PopCrush Wines! Enter now!",
+    "body": "Win a vacation to Palm Springs, San Diego, or Lake Tahoe from PopC
+    rush Wines! Enter now!",
     "id": "6025991716655",
     "image_hash": "410baf7addc749331cbe7e3edf360e33",
-    "image_url": "https://scontent.xx.fbcdn.net/hads-xaf1/t45.1600-4/s110x80/10736793_6025968204455_1324170848_n.png",
+    "image_url": "https://scontent.xx.fbcdn.net/hads-xaf1/t45.1600-4/s110x80/10
+    736793_6025968204455_1324170848_n.png",
     "name": "Win a trip to California!",
     "object_url": "http://wine.social/PopCrushLoveCA",
     "title": "Win a trip to California!"
@@ -83,6 +85,3 @@ Above function returns:
     "thumbnail_url": "https://external.xx.fbcdn.net/safe_image.php?d=AQCg4ty2n2653-Zh&w=150&h=120&url=https%3A%2F%2Fscontent.xx.fbcdn.net%2Fhads-xta1%2Ft45.1600-4%2F10550628_6025968204655_1209165442_n.jpg&cfs=1"
 }
 """
-
-
-
