@@ -1,3 +1,38 @@
+"""
+allowed accounts for app:
+<AdAccount> {
+    "age": 179.93262731481,
+    "amount_spent": "42500",
+    "id": "act_997253660324728",
+    "name": "American Vintage",
+    "owner": "678433138873450"
+
+     <AdAccount> {
+    "age": 105.865,
+    "amount_spent": "514980",
+    "id": "act_1031447726905321",
+    "name": "Varidesk",
+    "owner": "678433138873450"
+    
+    Kim Crawford
+    act_807247179325378
+
+    <AdAccount> {
+    "age": 298.89887731481,
+    "amount_spent": "869565",
+    "id": "act_933960369987391",
+    "name": "Pop Crush",
+    "owner": "678433138873450"
+
+    <AdAccount> {
+    "age": 50.080706018519,
+    "amount_spent": "6537887",
+    "id": "act_1013209698729124",
+    "name": "Constellation Canada",
+    "owner": "678433138873450"
+"""
+
+
 from facebookads.api import FacebookAdsApi
 from facebookads.objects import AdUser, Campaign, AdAccount, AdSet
 from facebookads import FacebookSession, FacebookAdsApi, objects
@@ -5,7 +40,7 @@ import os
 
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
-my_access_token = 'CAAN4vFUE2ZAgBALsZALHEGJQSEHXi0ETZBbGN5wn4FIVpG1czX99dCkE7AyxyQ5fGXE1cAGZB4HA1UEqtQu8xhCNaOlExMykDHsNl0K3NxeYoadfgSGmJVfQbp2jLHmlRZB2Mn942xGUdQuzBZAKHmIlrgHd6lMtpRgT3g21miZCkIYbXtZB7qfT7T25RxyYpOCV97wviGMHsdDbe3Sqvo1J' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAIeTGIB4ZCS61BoTFz0UXEDBivceAk686epdYJ5KKJvZAp4QqXVIwoM1ECOhgMDh5xHicblud2mHEsZAfhz0nWfDOjnZBwPGvcaaEZCytahrgomIEXQ3G5SuKqRPriiq6S8ZAkAqEOSxiZC3JbBZBqZCtbeXQu4UJFxMKCIEMtSo9gdP1DR5mp2ktZAVZANRpEoyCwN8GPyVW0G' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 me = AdUser(fbid='me')

@@ -6,13 +6,13 @@ import os
 """
 Using this Ad for the practice
 <Ad> {
-    "adset_id": "6025968221255",
-    "created_time": "2015-03-27T14:10:32-0400",
+    "adset_id": "6039958654209",
+    "created_time": "2015-12-23T07:56:57-0800",
     "creative": {
-        "id": "6025991716655"
+        "id": "6039958707009"
     },
-    "id": "6025997618255",
-    "name": "PopCrush 2016 RHS"
+    "id": "6039958655009",
+    "name": "Kim Crawford 2016 Page Post #75"
 }
 """
 
@@ -20,17 +20,29 @@ Using this Ad for the practice
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAKSMW9O8u1khNOv3x2uZAVNUCm03u3GO9RAefXADtJkM4frMYx2dfmhPJ2lcLfgJ5pgAlnqSx5ZBD07ra381pT6LoJzE8qjJ0csNfzzcYlpjYtbJEOuLZCWQaZBniyDigCNoFt0H0NXDAupCHz6Ncpdrwwmt8dnT106chkTMZCFBeqldMGrztr6sn3VDAh1MMd5a3KbFk' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAIeTGIB4ZCS61BoTFz0UXEDBivceAk686epdYJ5KKJvZAp4QqXVIwoM1ECOhgMDh5xHicblud2mHEsZAfhz0nWfDOjnZBwPGvcaaEZCytahrgomIEXQ3G5SuKqRPriiq6S8ZAkAqEOSxiZC3JbBZBqZCtbeXQu4UJFxMKCIEMtSo9gdP1DR5mp2ktZAVZANRpEoyCwN8GPyVW0G' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 
 def get_ad_creative_data(adcreative):
     creative = AdCreative(adcreative)
-    fields = [AdCreative.Field.name, AdCreative.Field.body, AdCreative.Field.image_url, AdCreative.Field.object_url, AdCreative.Field.adlabels, AdCreative.Field.call_to_action_type, AdCreative.Field.image_hash, AdCreative.Field.link_url, AdCreative.Field.title]
+    fields = [AdCreative.Field.name, 
+              AdCreative.Field.body, 
+              AdCreative.Field.image_url, 
+              AdCreative.Field.object_url, 
+              AdCreative.Field.adlabels, 
+              AdCreative.Field.call_to_action_type, 
+              AdCreative.Field.image_hash, 
+              AdCreative.Field.link_url, 
+              AdCreative.Field.title, 
+              AdCreative.Field.template_url, 
+    ]
     creative.remote_read(fields=fields)
     return creative
 
-creative_data = get_ad_creative_data(6025991716655)
+varidesk_creative_id = 6032775709806
+popcrush_creative_id = 6025991716655
+creative_data = get_ad_creative_data(popcrush_creative_id)
 print(creative_data)
 
 

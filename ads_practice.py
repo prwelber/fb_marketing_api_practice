@@ -6,7 +6,7 @@ import os
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAKSMW9O8u1khNOv3x2uZAVNUCm03u3GO9RAefXADtJkM4frMYx2dfmhPJ2lcLfgJ5pgAlnqSx5ZBD07ra381pT6LoJzE8qjJ0csNfzzcYlpjYtbJEOuLZCWQaZBniyDigCNoFt0H0NXDAupCHz6Ncpdrwwmt8dnT106chkTMZCFBeqldMGrztr6sn3VDAh1MMd5a3KbFk' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAIeTGIB4ZCS61BoTFz0UXEDBivceAk686epdYJ5KKJvZAp4QqXVIwoM1ECOhgMDh5xHicblud2mHEsZAfhz0nWfDOjnZBwPGvcaaEZCytahrgomIEXQ3G5SuKqRPriiq6S8ZAkAqEOSxiZC3JbBZBqZCtbeXQu4UJFxMKCIEMtSo9gdP1DR5mp2ktZAVZANRpEoyCwN8GPyVW0G' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 
@@ -14,7 +14,7 @@ FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 The below function gets ad information, not insights. This includes the creative id. Getting basic data, and
 not insights is done through the .remote_read(fields=fields) call
 """
-
+# Varidesk A - 6030758669406
 def get_ad_info(ad):
     ad = Ad(ad)
     fields = [
@@ -33,6 +33,41 @@ print(info)
 
 """
 Above function returns:
+<Ad> {
+    "adset_id": "6025968221255",
+    "created_time": "2015-03-27T14:10:32-0400",
+    "creative": {
+        "id": "6025991716655"
+    },
+    "id": "6025997618255",
+    "name": "PopCrush 2016 RHS"
+}
+
+or this:
+<Ad> {
+    "adset_id": "6030758660006",
+    "conversion_specs": [
+        {
+            "action.type": [
+                "link_click"
+            ],
+            "post": [
+                "927957720630217"
+            ],
+            "post.wall": [
+                "422448051181189"
+            ]
+        }
+    ],
+    "created_time": "2015-10-05T17:31:27-0400",
+    "creative": {
+        "id": "6032775709806"
+    },
+    "id": "6030758669406",
+    "name": "Varidesk A"
+}
+
+or:
 <Ad> {
     "adset_id": "6025968221255",
     "created_time": "2015-03-27T14:10:32-0400",
