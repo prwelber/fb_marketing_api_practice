@@ -8,7 +8,7 @@ import json
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAKu7jH6FpIyI7xAo2ZCIjFM1NfZC2seEDZBU1rQ0lyhZBjIvJwO6hTHIjnU3haDsmAaQx8F7wQmQcMPlZCyiYYBcFX0zFcNnUy71wmWkGjfvZAe1ta35hoLX5kOVmncLnHZBaoofCZCk1izTUpMThcs2mVOZAtkEKqGKseIZCFNqcZAAuMGMiOYCX48QqbkIe4T6SoNOrKKu3GC' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAPeMWzIjTV25HSOnSossVioqZAbuszZBsDJgmALg5cFlTl3ZCeLb3amxPEcfr47AbJ2tOPgZAjd1y7xU4Moj6g1tfskT2UGlIgfQT0bM1bZCc6js9dQaU1wjCMgdBdJ3r3PJ0Y5FNjFqcoNF6DqssZCyZBfGjfyoQikBxHQObO1nuFdig6nqdGqRiNdQaokB18mkOO803kO' #Your user access token
 # FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 kim_crawford_acct_num = 807247179325378
@@ -34,7 +34,7 @@ def get_campaign_info(camp_id):
     print(camp.text)
     return camp
 
-get_campaign_info(6039958653409)
+#get_campaign_info(6039958653409)
 
 """
 the above get request returns:
@@ -45,11 +45,16 @@ the above get request returns:
 """
 
 # GET INSIGHTS ON CAMPAIGN
- #payload = {'fields': 'date_start,cpm,ctr,spend,campaign_id,reach'}
- #insights_url = 'https://graph.facebook.com/v2.5/6039958653409/insights?access_token=%s' % my_access_token
- #insights = requests.get(insights_url, params=payload)
- #insights = insights.json()
- #print(json.dumps(insights, indent=4, separators=(',',':')))
+
+def campaign_insights(camp_id):
+    insights_url = 'https://graph.facebook.com/v2.5/%d/insights?access_token=%s' % (camp_id, my_access_token)
+    payload = {'fields': 'date_start,cpm,ctr,spend,campaign_id,reach'}
+    insights = requests.get(insights_url, params=payload)
+    insights = insights.json()
+    print(json.dumps(insights, indent=4, separators=(',',':')))
+    return insights
+
+#campaign_insights(6039958653409)
 
 # ACCESS ADSET THROUGH CAMPAIGN
 
@@ -76,4 +81,12 @@ def get_ad_through_adset_from_campaign(camp_id):
 
 #ad_data = get_ad_through_adset_from_campaign(6039958653409)
 
+def get_ad_creative(creative_id):
+    creative_url = 'https://graph.facebook.com/v2.5/%d?access_token=%s' % (creative_id, my_access_token)
+    payload = {'fields': 'name, body, image_hash, title, image_url'}
+    creative = requests.get(creative_url, params=payload)
+    creative = creative.json()
+    print(json.dumps(creative, indent=4, separators=(',', ':')))
+    return creative
 
+get_ad_creative(6025991716655)
