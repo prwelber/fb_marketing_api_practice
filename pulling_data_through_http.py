@@ -4,7 +4,7 @@ from facebookads.objects import Insights, Ad, AdCreative, AdAccount, Campaign, A
 import os
 import requests
 import json
-
+import time
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
@@ -98,7 +98,31 @@ def get_ad_insight_through_campaign(camp_id):
 
 # get_ad_insight_through_campaign(6039958653409)
 
+
+
 # Get adset targeting through acct num
 # targetingsentencelines gives more depth
+def get_stuff_for_ashwin(act_id):
+    url = 'https://graph.facebook.com/v2.5/act_%d/adsets?fields=name,start_time,end_time,targeting,targetingsentencelines&access_token=%s' % (act_id, my_access_token)
+    f = open('test2.json', 'a')
 
-'http://graph.facebook.com/v2.5/act_807247179325378/adsets?fields=name,start_time,end_time,targeting,targetingsentencelines'
+    data = requests.get(url).json()
+    json.dump(data, f, indent=4, separators=(',', ':'))
+    print('json sent to file')
+
+    # while True:
+    #     try:
+    #         if data['paging']['next']:
+    #             print('more data available')
+    #             more_data = requests.get(data['paging']['next']).json()
+    #             json.dump(more_data, f, indent=4, separators=(',', ':'))
+    #             print('data written to file')
+    #     except KeyError:
+    #         break
+
+    f.close()
+    return data
+
+get_stuff_for_ashwin(807247179325378)
+
+
