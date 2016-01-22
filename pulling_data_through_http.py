@@ -8,7 +8,8 @@ import json
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAPeMWzIjTV25HSOnSossVioqZAbuszZBsDJgmALg5cFlTl3ZCeLb3amxPEcfr47AbJ2tOPgZAjd1y7xU4Moj6g1tfskT2UGlIgfQT0bM1bZCc6js9dQaU1wjCMgdBdJ3r3PJ0Y5FNjFqcoNF6DqssZCyZBfGjfyoQikBxHQObO1nuFdig6nqdGqRiNdQaokB18mkOO803kO' #Your user access token
+# As of Jan 21 this is the long-lived version
+my_access_token = 'CAAN4vFUE2ZAgBAHaZA6dmP6v4eIxOcV8TtA2crGjLG47ZCEllpjUSUlGFGDIFCX0KQrWBw8OGY9I7vi087ekgpaoldSyaya3HtIJgzC7oR2GQnpE8TfWi8uAB7LqtjMGqtgmvzFXZBTytZCkMDVm9WTC9vBqQZAuxVpj10yyQZC0WigZBaxvKfvG' #Your user access token
 # FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 kim_crawford_acct_num = 807247179325378
@@ -18,9 +19,6 @@ print(r.text)
 print('\n')
 for thing in r.headers:
     print("%s: %s" % (thing, r.headers[thing]))
-print('\n')
-for thing in r:
-    print(thing)
 print('\n')
 print(r.json())
 print('\n')
@@ -79,7 +77,7 @@ def get_ad_through_adset_from_campaign(camp_id):
     print(json.dumps(ad_data, indent=4, separators=(',', ':')))
     return ad_data
 
-#ad_data = get_ad_through_adset_from_campaign(6039958653409)
+# ad_data = get_ad_through_adset_from_campaign(6039958653409)
 
 def get_ad_creative(creative_id):
     creative_url = 'https://graph.facebook.com/v2.5/%d?access_token=%s' % (creative_id, my_access_token)
@@ -89,4 +87,18 @@ def get_ad_creative(creative_id):
     print(json.dumps(creative, indent=4, separators=(',', ':')))
     return creative
 
-get_ad_creative(6025991716655)
+# get_ad_creative(6025991716655)
+
+def get_ad_insight_through_campaign(camp_id):
+    ad_url = 'https://graph.facebook.com/v2.5/%d/ads?fields=name,insights{ctr,cpm,reach,spend,unique_actions}&access_token=%s' % (camp_id, my_access_token)
+    ad_insights = requests.get(ad_url)
+    ad_insights = ad_insights.json()
+    print(json.dumps(ad_insights, indent=4, separators=(',', ':')))
+    return ad_insights
+
+# get_ad_insight_through_campaign(6039958653409)
+
+# Get adset targeting through acct num
+# targetingsentencelines gives more depth
+
+'http://graph.facebook.com/v2.5/act_807247179325378/adsets?fields=name,start_time,end_time,targeting,targetingsentencelines'

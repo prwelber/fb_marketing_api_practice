@@ -5,7 +5,7 @@ import os
 
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
-my_access_token = 'CAAN4vFUE2ZAgBALsZALHEGJQSEHXi0ETZBbGN5wn4FIVpG1czX99dCkE7AyxyQ5fGXE1cAGZB4HA1UEqtQu8xhCNaOlExMykDHsNl0K3NxeYoadfgSGmJVfQbp2jLHmlRZB2Mn942xGUdQuzBZAKHmIlrgHd6lMtpRgT3g21miZCkIYbXtZB7qfT7T25RxyYpOCV97wviGMHsdDbe3Sqvo1J' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAHaZA6dmP6v4eIxOcV8TtA2crGjLG47ZCEllpjUSUlGFGDIFCX0KQrWBw8OGY9I7vi087ekgpaoldSyaya3HtIJgzC7oR2GQnpE8TfWi8uAB7LqtjMGqtgmvzFXZBTytZCkMDVm9WTC9vBqQZAuxVpj10yyQZC0WigZBaxvKfvG' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 """

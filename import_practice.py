@@ -26,9 +26,7 @@ else:
     # Should print False
 
 def error_handling(num):
-    if num == True or num == False:
-        return 'you can\'t enter a boolean, only a number'
-    elif num == None:
+    if num == None:
         return 'what are you doing clown'
     try:
         return 50 % num
@@ -37,7 +35,7 @@ def error_handling(num):
     except TypeError:
         return 'you must enter a number'
 
-print(error_handling(0))
+print(error_handling(6))
 
 print(a_string.startswith('The'))
 print(a_string.endswith('og.'))
