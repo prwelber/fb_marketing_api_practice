@@ -1,0 +1,1495 @@
+{
+    "paging":{
+        "next":"https://graph.facebook.com/v2.5/act_807247179325378/adsets?access_token=CAAN4vFUE2ZAgBAHaZA6dmP6v4eIxOcV8TtA2crGjLG47ZCEllpjUSUlGFGDIFCX0KQrWBw8OGY9I7vi087ekgpaoldSyaya3HtIJgzC7oR2GQnpE8TfWi8uAB7LqtjMGqtgmvzFXZBTytZCkMDVm9WTC9vBqQZAuxVpj10yyQZC0WigZBaxvKfvG&fields=name%2Cstart_time%2Cend_time%2Ctargeting%2Ctargetingsentencelines&limit=25&after=NjAzNDc1NTA4MjgwOQZDZD",
+        "cursors":{
+            "after":"NjAzNDc1NTA4MjgwOQZDZD",
+            "before":"NjAzOTk1OTE3NTAwOQZDZD"
+        }
+    },
+    "data":[
+        {
+            "name":"Kim Crawford 2016 Page Post #79",
+            "end_time":"2016-01-28T12:00:00-0800",
+            "start_time":"2016-01-27T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039959175009"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #78",
+            "end_time":"2016-01-20T23:59:00-0800",
+            "start_time":"2016-01-20T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039959013609"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #77",
+            "end_time":"2016-01-15T23:59:00-0800",
+            "start_time":"2016-01-15T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039958881009"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #76",
+            "end_time":"2016-01-14T12:00:00-0800",
+            "start_time":"2016-01-13T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039958737609"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #75",
+            "end_time":"2016-01-07T12:00:00-0800",
+            "start_time":"2016-01-06T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039958654209"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #74",
+            "end_time":"2016-01-05T12:00:00-0800",
+            "start_time":"2016-01-04T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 40"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":40,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039958560809"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #73",
+            "end_time":"2015-12-31T23:00:00-0800",
+            "start_time":"2015-12-28T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039894591809"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #72",
+            "end_time":"2015-12-26T12:00:00-0800",
+            "start_time":"2015-12-23T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 40"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":40,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6039893880209"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #71",
+            "end_time":"2015-12-19T12:00:00-0800",
+            "start_time":"2015-12-18T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location - Living In:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6038343944409"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #70",
+            "end_time":"2015-12-17T12:00:00-0800",
+            "start_time":"2015-12-16T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location - Living In:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6038343664809"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #69",
+            "end_time":"2015-12-12T12:00:00-0800",
+            "start_time":"2015-12-11T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location - Living In:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6038342671209"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #68",
+            "end_time":"2015-12-09T23:59:00-0800",
+            "start_time":"2015-12-09T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location - Living In:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6038342538809"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #67",
+            "end_time":"2015-12-08T12:00:00-0800",
+            "start_time":"2015-12-07T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location - Living In:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6038342409609"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #66",
+            "end_time":"2015-11-28T23:59:00-0800",
+            "start_time":"2015-11-27T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036849682209"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #64",
+            "end_time":"2015-11-21T12:00:00-0800",
+            "start_time":"2015-11-20T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 40"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":40,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036849681409"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #63",
+            "end_time":"2015-11-19T12:00:00-0800",
+            "start_time":"2015-11-18T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036849681209"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #61 test",
+            "end_time":"2015-11-10T12:00:00-0800",
+            "start_time":"2015-11-09T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036754771409"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #65",
+            "end_time":"2015-11-25T23:59:00-0800",
+            "start_time":"2015-11-25T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036737285409"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #62",
+            "end_time":"2015-11-13T23:59:00-0800",
+            "start_time":"2015-11-13T12:00:00-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036736841209"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #60",
+            "end_time":"2015-11-02T23:59:00-0800",
+            "start_time":"2015-11-02T14:30:51-0800",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "21 - 40"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":21,
+                "age_max":40,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6036599645809"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #60",
+            "end_time":"2015-10-26T12:00:00-0700",
+            "start_time":"2015-10-23T12:00:00-0700",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "25 - 54"
+                        ]
+                    },
+                    {
+                        "content":"Gender:",
+                        "children":[
+                            "Female"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "genders":[
+                    2
+                ],
+                "age_min":25,
+                "age_max":54,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6035779881209"
+        },
+        {
+            "name":"Kim Crawford NZ Video Campaign 1 FOF",
+            "end_time":"2015-11-05T23:59:00-0800",
+            "start_time":"2015-10-27T12:00:00-0700",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "New Zealand"
+                        ]
+                    },
+                    {
+                        "content":"Interests:",
+                        "children":[
+                            "Wine"
+                        ]
+                    },
+                    {
+                        "content":"Friends of connections:",
+                        "children":[
+                            "Friends of people who are connected to Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "18 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "NZ"
+                    ]
+                },
+                "age_min":18,
+                "friends_of_connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "interests":[
+                    {
+                        "name":"Wine",
+                        "id":"6003148544265"
+                    }
+                ],
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6035706991209"
+        },
+        {
+            "name":"Kim Crawford NZ Video Campaign 1",
+            "end_time":"2015-11-05T23:59:00-0800",
+            "start_time":"2015-10-27T12:00:00-0700",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "New Zealand"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "18 - 65+"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "NZ"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "age_min":18,
+                "age_max":65,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6035706990809"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #59",
+            "end_time":"2015-11-01T12:00:00-0800",
+            "start_time":"2015-10-30T12:00:00-0700",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "25 - 54"
+                        ]
+                    },
+                    {
+                        "content":"Gender:",
+                        "children":[
+                            "Female"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "genders":[
+                    2
+                ],
+                "age_min":25,
+                "age_max":54,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6034755212609"
+        },
+        {
+            "name":"Kim Crawford 2016 Page Post #58",
+            "end_time":"2015-10-30T12:00:00-0700",
+            "start_time":"2015-10-28T12:00:00-0700",
+            "targetingsentencelines":{
+                "targetingsentencelines":[
+                    {
+                        "content":"Location:",
+                        "children":[
+                            "United States"
+                        ]
+                    },
+                    {
+                        "content":"Connections:",
+                        "children":[
+                            "People who like Kim Crawford Wines"
+                        ]
+                    },
+                    {
+                        "content":"Age:",
+                        "children":[
+                            "25 - 54"
+                        ]
+                    },
+                    {
+                        "content":"Gender:",
+                        "children":[
+                            "Female"
+                        ]
+                    },
+                    {
+                        "content":"Placements:",
+                        "children":[
+                            "News Feed on desktop computers or News Feed on mobile devices"
+                        ]
+                    }
+                ],
+                "id":"/targetingsentencelines"
+            },
+            "targeting":{
+                "geo_locations":{
+                    "location_types":[
+                        "home",
+                        "recent"
+                    ],
+                    "countries":[
+                        "US"
+                    ]
+                },
+                "connections":[
+                    {
+                        "name":"Kim Crawford Wines",
+                        "id":"31578092551"
+                    }
+                ],
+                "genders":[
+                    2
+                ],
+                "age_min":25,
+                "age_max":54,
+                "page_types":[
+                    "desktopfeed",
+                    "mobilefeed"
+                ]
+            },
+            "id":"6034755082809"
+        }
+    ]
+}

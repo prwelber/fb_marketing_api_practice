@@ -43,7 +43,8 @@ def error_handling(num):
     else:
         return num
 
-print(error_handling(4))
+
+print(error_handling(6))
 
 print(a_string.startswith('The'))
 print(a_string.endswith('og.'))

@@ -4,11 +4,12 @@ from facebookads.objects import Insights, Ad, AdCreative, AdAccount, Campaign, A
 import os
 import requests
 import json
-
+import time
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAPeMWzIjTV25HSOnSossVioqZAbuszZBsDJgmALg5cFlTl3ZCeLb3amxPEcfr47AbJ2tOPgZAjd1y7xU4Moj6g1tfskT2UGlIgfQT0bM1bZCc6js9dQaU1wjCMgdBdJ3r3PJ0Y5FNjFqcoNF6DqssZCyZBfGjfyoQikBxHQObO1nuFdig6nqdGqRiNdQaokB18mkOO803kO' #Your user access token
+# As of Jan 21 this is the long-lived version
+my_access_token = 'CAAN4vFUE2ZAgBAHaZA6dmP6v4eIxOcV8TtA2crGjLG47ZCEllpjUSUlGFGDIFCX0KQrWBw8OGY9I7vi087ekgpaoldSyaya3HtIJgzC7oR2GQnpE8TfWi8uAB7LqtjMGqtgmvzFXZBTytZCkMDVm9WTC9vBqQZAuxVpj10yyQZC0WigZBaxvKfvG' #Your user access token
 # FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 kim_crawford_acct_num = 807247179325378
@@ -18,9 +19,6 @@ print(r.text)
 print('\n')
 for thing in r.headers:
     print("%s: %s" % (thing, r.headers[thing]))
-print('\n')
-for thing in r:
-    print(thing)
 print('\n')
 print(r.json())
 print('\n')
@@ -89,4 +87,42 @@ def get_ad_creative(creative_id):
     print(json.dumps(creative, indent=4, separators=(',', ':')))
     return creative
 
-get_ad_creative(6025991716655)
+# get_ad_creative(6025991716655)
+
+def get_ad_insight_through_campaign(camp_id):
+    ad_url = 'https://graph.facebook.com/v2.5/%d/ads?fields=name,insights{ctr,cpm,reach,spend,unique_actions}&access_token=%s' % (camp_id, my_access_token)
+    ad_insights = requests.get(ad_url)
+    ad_insights = ad_insights.json()
+    print(json.dumps(ad_insights, indent=4, separators=(',', ':')))
+    return ad_insights
+
+# get_ad_insight_through_campaign(6039958653409)
+
+
+
+# Get adset targeting through acct num
+# targetingsentencelines gives more depth
+def get_stuff_for_ashwin(act_id):
+    url = 'https://graph.facebook.com/v2.5/act_%d/adsets?fields=name,start_time,end_time,targeting,targetingsentencelines&access_token=%s' % (act_id, my_access_token)
+    f = open('test2.json', 'a')
+
+    data = requests.get(url).json()
+    json.dump(data, f, indent=4, separators=(',', ':'))
+    print('json sent to file')
+
+    # while True:
+    #     try:
+    #         if data['paging']['next']:
+    #             print('more data available')
+    #             more_data = requests.get(data['paging']['next']).json()
+    #             json.dump(more_data, f, indent=4, separators=(',', ':'))
+    #             print('data written to file')
+    #     except KeyError:
+    #         break
+
+    f.close()
+    return data
+
+get_stuff_for_ashwin(807247179325378)
+
+

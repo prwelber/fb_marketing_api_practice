@@ -20,7 +20,7 @@ Using this Ad for the practice
 my_app_id = os.environ['APP_ID']
 my_app_secret = os.environ['APP_SECRET']
 # need to use access token for more_practice app
-my_access_token = 'CAAN4vFUE2ZAgBAO1GMrTP4dU0r57IZAZBsm2bEbyNHOZArQAqnKVMclEjIaKmjVBsZAMKGrzIZAXbscAe6vthkeLymFG2FCDlONI7KcQuLAjCRnI3HVwQejY7zr5dIZAmMYmiVa8AYZA65Cb0RkfJieOVbrzZC6wCiIoXZBunYjcZBHBB8gTtTkibJ27F3QmoUsXteK9ZClZBuoLQnIWjy0oiZA9Vu' #Your user access token
+my_access_token = 'CAAN4vFUE2ZAgBAHaZA6dmP6v4eIxOcV8TtA2crGjLG47ZCEllpjUSUlGFGDIFCX0KQrWBw8OGY9I7vi087ekgpaoldSyaya3HtIJgzC7oR2GQnpE8TfWi8uAB7LqtjMGqtgmvzFXZBTytZCkMDVm9WTC9vBqQZAuxVpj10yyQZC0WigZBaxvKfvG' #Your user access token
 FacebookAdsApi.init(my_app_id, my_app_secret, my_access_token)
 
 
