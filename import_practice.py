@@ -1,9 +1,13 @@
-from import_source import add_one, multiply, say_hi, double_multiply
+import import_source
+# To import package, syntax is 'import directory.file'
+import package_practice.to_import as pack
 
-print(add_one(1))
-print(multiply(5, 4))
-print(say_hi('dude'))
-print(double_multiply(5, 4))
+print(pack.echo('we are soooo thirsty'))
+print(pack.echo('plz halp me 2 code thingz'))
+print(import_source.add_one(1))
+print(import_source.multiply(5, 4))
+print(import_source.say_hi('phil'))
+print(import_source.double_multiply(5, 4))
 
 arr = range(0, 21)
 result = filter(lambda x: x % 2 == 0 or x == 15, arr)
@@ -26,18 +30,21 @@ else:
     # Should print False
 
 def error_handling(num):
-    if num == True or num == False:
+    if num == 'True' or num == 'False':
         return 'you can\'t enter a boolean, only a number'
     elif num == None:
         return 'what are you doing clown'
     try:
-        return 50 % num
+        return 25 % num
     except ZeroDivisionError:
         return 'you can\'t do modulus zero'
     except TypeError:
         return 'you must enter a number'
+    else:
+        return num
 
-print(error_handling(0))
+print(error_handling(4))
 
 print(a_string.startswith('The'))
 print(a_string.endswith('og.'))
+

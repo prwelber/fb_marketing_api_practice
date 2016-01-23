@@ -13,5 +13,5 @@ def say_hi(name):
 
 
 def double_multiply(x, y):
-    print(add_one(x))
     return multiply(x, y) * 2
+

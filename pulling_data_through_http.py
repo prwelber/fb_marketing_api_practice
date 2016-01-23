@@ -79,7 +79,7 @@ def get_ad_through_adset_from_campaign(camp_id):
     print(json.dumps(ad_data, indent=4, separators=(',', ':')))
     return ad_data
 
-#ad_data = get_ad_through_adset_from_campaign(6039958653409)
+# ad_data = get_ad_through_adset_from_campaign(6039958653409)
 
 def get_ad_creative(creative_id):
     creative_url = 'https://graph.facebook.com/v2.5/%d?access_token=%s' % (creative_id, my_access_token)
